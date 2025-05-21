@@ -1,0 +1,589 @@
+@media screen and (max-width: 768px) {
+  .slider-bg {
+    height: 75vh !important;
+    position: relative !important;
+    overflow: visible !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .banner {
+    margin-top: auto;
+    padding: 20px 15px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+
+    .moving-text {
+        font-size: 2.5rem;
+    }
+    .phone-mockup {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .element-bg img {
+        height: 250px;
+    }
+    .big-banner-title {
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .plan {
+        width: 100% !important;
+    }
+    .plans {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .plan {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .col-sm-6 {
+        width: 50% !important;
+        margin-bottom: 10px;
+    }
+    .element-bg {
+        background-image: url("../../assets/img/bg-one.png") !important;
+        padding: 20px 15px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .off-list {
+        padding-left: 0rem;
+    }
+    .pl-9 {
+        padding-left: 10px;
+    }
+    .pl-60 {
+        padding-left: 15px;
+    }
+    .mt-9 {
+        margin-top: 20px;
+    }
+    .mr-ve-3 {
+        margin-left: 5px;
+    }
+    .section-title {
+        font-size: 1.470rem;
+    }
+    .platform-bg {
+        margin: 5px;
+    }
+    .smallbanner-bg {
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .box-bg {
+        margin: 15px;
+    }
+    .box-bg::before {
+        padding: 2px;
+    }
+    .banner-buttons {
+        display: block;
+    }
+    .banner-buttons .banner-button {
+        margin-bottom: 10px;
+    }
+    footer .col-lg-2,
+    footer .col-lg-3 {
+        padding: 25px 20px;
+        text-align: left;
+    }
+    .footer-title {
+        text-align: left;
+    }
+    .highlight-title {
+        font-size: 1.04rem;
+    }
+    .banner-title,
+    .abt-banner-title,
+    .faq-banner-title,
+    .mrg-banner-title {
+        font-size: 2.05rem;
+        text-wrap: wrap;
+    }
+    .banner-subtitle,
+    .join-banner-title {
+        font-size: 1.9rem;
+    }
+    .join-banner-title {
+        line-height: 38px;
+    }
+    .master-box .row,
+    .faq-header {
+        padding: 0px !important;
+    }
+    #myBtnContainer {
+        margin: 0px;
+    }
+    .show span {
+        display: flex !important;
+    }
+    .mb-30 {
+        margin-bottom: 0.5rem !important;
+    }
+    .banner-button-two,
+    .banner-button {
+        padding: 8px 30px;
+        height: auto !important;
+    }
+    .title {
+        font-size: 2.00rem;
+    }
+    .element-title,
+    .join-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .counter-item span {
+        font-size: 1.8rem;
+    }
+    .smalltitle {
+        font-size: 0.9rem;
+    }
+    .mb-res-10 {
+        margin-bottom: 10px;
+    }
+    .chall-card-bg {
+        margin: 15px;
+    }
+    .padd-box {
+        border-radius: 10px;
+        padding: 0px;
+    }
+    .box-bg {
+        padding: 5px 15px 15px 15px;
+    }
+    .feature-item:last-child {
+        margin-bottom: 30px;
+    }
+    .abt-platform-banner {
+        padding-top: 50px;
+    }
+    .slider-bg {
+        height: 65vh;
+    }
+    section .container,
+    section .container-lg {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    #navbar-area ul {
+        border: 1px solid #7c7c7c00;
+        padding-top: 30px;
+        background: #98989800;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .cut-edge,
+    .form-bg img,
+    .challenge-banner,
+    .aff-frame,
+    .abt-banner,
+    .bear-img {
+        height: auto;
+        width: 100% !important;
+    }
+    .form-title {
+        font-size: 2rem;
+    }
+    .counter-item p {
+        font-size: 13px;
+    }
+    .dropdown-content {
+        display: none;
+        background-color: #010201;
+    }
+    .aff-cards-container {
+        display: block;
+    }
+    .aff-arrow {
+        transform: rotate(90deg);
+        height: 50px;
+        width: auto;
+        margin: 20px !important;
+    }
+    @keyframes arrowanimate {
+        0% {
+            opacity: 0.5;
+            transform: translateX(0px) translateY(0px) rotate(90deg);
+            /* Start at initial rotation */
+        }
+        50% {
+            opacity: 1;
+            transform: translateX(15px) translateY(0px) rotate(90deg);
+            /* Rotate to 90 degrees */
+        }
+        100% {
+            opacity: 0.5;
+            transform: translateX(30px) translateY(0px) rotate(90deg);
+            /* Maintain 90-degree rotation */
+        }
+    }
+    @keyframes arrowanimate {
+        0% {
+            opacity: 0.5;
+            transform: translateX(0px) translateY(0px) rotate(90deg);
+            /* Start at initial position and rotation */
+        }
+        50% {
+            opacity: 1;
+            transform: translateX(0px) translateY(15px) rotate(90deg);
+            /* Move slightly downward */
+        }
+        100% {
+            opacity: 0.5;
+            transform: translateX(0px) translateY(30px) rotate(90deg);
+            /* Move further downward */
+        }
+    }
+    .arrow img {
+        display: initial;
+    }
+    .feat-padd {
+        margin-bottom: 30px;
+    }
+    .faq-question {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .aff-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .step-title {
+        width: 100%;
+    }
+    .aff-card svg text {
+        font-size: 30px !important;
+    }
+    .wd-4 {
+        width: 100%;
+    }
+    .rounded-circle {
+        display: none;
+    }
+    .dflex {
+        display: block !important;
+    }
+    .plans .postin {
+        border-right: 0px dashed #adadad29;
+    }
+    .plan {
+        padding: 20px 20px 0px;
+    }
+    .footer-social-icons a {
+        margin-right: 10px;
+    }
+    .social-icon img {
+        margin-bottom: 10px;
+    }
+    .step-price-btn {
+        padding: 8px 50px;
+        margin-top: 13px;
+    }
+    .banner {
+        padding: 20px;
+    }
+    #idForm .col-lg-6 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .how_it_work_bg {
+        background-image: none;
+    }
+    .banner-card-img {
+        margin-top: -80px;
+    }
+    .pd-5 {
+        padding: 5px;
+    }
+    .mob-dis-none {
+        display: none ! important;
+    }
+    .wd-dis-none {
+        display: block;
+    }
+    .work-banner-card {
+        padding: 0;
+        margin-top: -150px;
+    }
+    .work-card {
+        padding: 20px;
+        height: auto;
+    }
+    .challenge-banners {
+        background-image: none !important;
+    }
+    .lab-option .label {
+        color: #fff;
+    }
+    .price-ftn {
+        font-size: 1.3rem !important;
+        margin-top: 25px;
+    }
+    .lab-option .label {
+        color: #fff !important;
+    }
+    .lab-vis .label {
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .lab-vis .label {
+        text-indent: 0;
+        white-space: normal;
+        overflow: visible;
+    }
+    .stepper {
+        padding: 20px;
+    }
+    .stepper .wd-4 {
+        margin-bottom: 10px;
+    }
+    .faq-answer.visible {
+        max-height: 500px;
+        padding: 10px;
+    }
+    .nav-bg {
+        background-color: #000000e3;
+    }
+    .about-bg,
+    .how_it_work_bg {
+        padding-top: 20px;
+    }
+    .affiliate .d-in-flex {
+        display: block;
+    }
+    #myInput {
+        width: 100%;
+    }
+    .ft-card-bg-3 {
+        background: none;
+    }
+    .steps-card {
+        height: auto !important;
+    }
+    .offer-card {
+        height: auto !important;
+    }
+    .text-icon {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .white-stroke {
+        -webkit-text-stroke: 1px rgb(255, 255, 255) !important;
+    }
+    .banner-title {
+        -webkit-text-stroke: 1px rgb(94, 101, 97);
+    }
+    .price-box {
+        border: 1px solid #adadad29;
+        border-radius: 10px !important;
+        padding: 16px 10px 0px !important;
+    }
+    .price-box .step-price-btn {
+        padding: 8px 17px;
+    }
+    .join-banner-button-two {
+        padding: 10px 23px !important;
+    }
+    .join-banner-button {
+        padding: 8px 23px !important;
+    }
+    .join-price {
+        padding: 15px 15px 0px;
+    }
+    .jn-button {
+        padding: 12px 38px;
+        margin-top: 10px;
+        display: ruby-text;
+        position: initial;
+    }
+    .join-price {
+        font-size: 13px;
+    }
+    .faq-join-bg {
+        padding-top: 50px !important;
+    }
+    .faq-question {
+        padding: 13px;
+    }
+    .rule-card {
+        padding: 10px 20px 20px;
+    }
+    .curve-icon {
+        top: -150px;
+        height: 267px;
+        z-index: 10;
+    }
+    .form-bg {
+        padding: 0px 0 40px;
+    }
+    .vision-card {
+        padding: 0px !important;
+    }
+    .wd-8 {
+        width: 100% !important;
+    }
+    .vis-text .row {
+        padding: 0px !important;
+    }
+
+
+     .highlight-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            text-indent: -20px;
+            padding-left: 35px;
+            line-height: 1.6;
+            list-style: none;
+            margin-bottom: 8px;
+        }
+        .highlight-list li i {
+            flex-shrink: 0;
+            margin-right: 5px;
+            font-size: 18px;
+        }
+        .highlight-card {
+            padding: 20px;
+        }
+        .highlight-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .box {
+            padding: 15px;
+            background-color: #0c1f0c;
+            border-radius: 10px;
+        }
+        .start1 {
+            font-size: 50px;
+            line-height: 1.2;
+            text-align: left;
+        }
+        .start1.banner-subtitle {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;
+            width: 100%;
+        }
+        .typing-effect {
+            display: inline-block;
+            text-align: left;
+        }
+        .typing-effect span {
+            display: inline-block;
+            text-align: left;
+        }
+        .start1.banner-title.fade-in.white-stroke {
+            font-size: 45px;
+            line-height: 1.2;
+        }
+        .start1.banner-subtitle.typing-effect.white-stroke {
+            font-size: 45px;
+            line-height: 1.2;
+        }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .slider-bg {
+        height: auto;
+    }
+    .element-bg img {
+        height: auto;
+        width: 100% !important;
+    }
+    .element-title {
+        font-size: 1.53rem;
+    }
+    .smalltitle {
+        font-size: 1.0rem;
+    }
+    .pl-9 {
+        padding-left: 30px;
+    }
+    .challenge-banners {
+        background-size: contain;
+        background-image: none !important;
+    }
+    .title,
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .tab-nn {
+        display: none;
+    }
+    section .container {
+        padding: 40px 0px;
+    }
+    .big-banner-title {
+        font-size: 2.5rem;
+    }
+    .highlight-title {
+        font-size: .80rem;
+    }
+    .box-bg {
+        padding: 10px 5px 15px 5px;
+    }
+    .send-button {
+        font-size: 12px;
+    }
+    .foot-img {
+        height: 28px;
+    }
+    .wd-dis-none {
+        display: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .work-btn {
+        font-size: 11px !important;
+    }
+    .work-card {
+        padding: 20px;
+        height: auto;
+    }
+    .work-banner-card {
+        padding: 20px;
+    }
+    .banner p {
+        font-size: 12PX;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .banner-title,
+    .banner-subtitle,
+    .faq-banner-title,
+    .abt-banner-title {
+        font-size: 2.5rem;
+    }
+    .abt-banner,
+    .form-bg img {
+        height: auto;
+        width: 100% !important;
+    }
+    .abt-platform-banner {
+        padding-top: 180px;
+    }
+    .form-title {
+        font-size: 2rem;
+    }
+    .ban-wd-65 {
+        width: 65%;
+    }
+    .why-bann {
+        width: 60%;
+    }
+}

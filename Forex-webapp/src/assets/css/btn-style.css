@@ -1,0 +1,229 @@
+.gradient-border-button {
+    position: relative;
+    padding: 1.2rem 2.4rem;
+    font-size: 15px;
+    color: white;
+    background: #1e293b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gradient-border-button::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(45deg, #60a5fa, #a78bfa, #60a5fa);
+    border-radius: 10px;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    animation: borderRotate 4s linear infinite;
+}
+
+@keyframes borderRotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.gradient-border-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(96, 165, 250, 0.4);
+}
+
+/* Elegant Slide Button */
+
+.slide-button {
+    position: relative;
+    padding: 0.80rem 2.4rem;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: 2px solid #fefffe;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slide-content {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.slide-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f8f235, #0a4820);
+    transition: transform 0.5s ease;
+    transform: skewX(-20deg);
+}
+
+.slide-button:hover::before {
+    transform: skewX(-20deg) translateX(100%);
+}
+
+.slide-button:hover .icon {
+    transform: translateX(5px);
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.shine-button {
+    position: relative;
+    padding: 0.92rem 2.4rem;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(45deg, #f8f235, #02a33b);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.shine-content {
+    position: relative;
+    z-index: 1;
+}
+
+.shine-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient( 45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transform: rotate(45deg) translateY(-100%);
+    transition: transform 0.5s ease;
+}
+
+.shine-button:hover::before {
+    transform: rotate(45deg) translateY(100%);
+}
+
+/* Border Animation Button */
+
+.border-animation-button {
+    position: relative;
+    padding: 1.2rem 2.4rem;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.border-animation-button .button-text {
+    position: relative;
+    z-index: 1;
+}
+
+.border-animation-button div {
+    position: absolute;
+    background: #60a5fa;
+}
+
+.border-top,
+.border-bottom {
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+}
+
+.border-right,
+.border-left {
+    width: 2px;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+.border-top {
+    top: 0;
+    right: 0;
+}
+
+.border-right {
+    top: 0;
+    right: 0;
+}
+
+.border-bottom {
+    bottom: 0;
+    left: 0;
+}
+
+.border-left {
+    bottom: 0;
+    left: 0;
+}
+
+.border-animation-button:hover .border-top,
+.border-animation-button:hover .border-bottom {
+    width: 100%;
+}
+
+.border-animation-button:hover .border-right,
+.border-animation-button:hover .border-left {
+    height: 100%;
+}
+
+/* Scale Background Button */
+
+.scale-button {
+    position: relative;
+    padding: 1.2rem 2.4rem;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: 2px solid #a78bfa;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.scale-text {
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.scale-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a78bfa;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.scale-button:hover .scale-bg {
+    transform: scale(1);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .button-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .button-wrapper {
+        min-height: 120px;
+    }
+}

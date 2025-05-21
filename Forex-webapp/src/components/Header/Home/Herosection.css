@@ -1,0 +1,35 @@
+.slider-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.white-stroke {
+  -webkit-text-stroke: 1px white;
+}
+
+.gradient-stroke {
+  background: linear-gradient(to right, #00f260, #0575e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-group button {
+  margin: 0 10px;
+}
